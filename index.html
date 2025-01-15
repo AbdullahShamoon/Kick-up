@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/ball.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kick up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="score-board">
+        <div id="score">Score: 0</div>
+        <div id="high-score">High Score: 0</div>
+    </div>
+
+    <div id="game-container">
+        <div id="left-wall"></div>
+        <div id="right-wall"></div>
+        <div id="ball"></div>
+        <div id="grass"></div>
+        <div id="game-over" class="hidden">
+            <p>Game Over!</p>
+            <button id="restart-btn">Restart</button>
+        </div>
+    </div>
+
+    <!-- Sounds -->
+    <audio id="hit-sound" src="sounds/hit.mp3"></audio>
+    <audio id="wall-sound" src="sounds/wall.mp3"></audio>
+    <audio id="game-over-sound" src="sounds/gameover.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
