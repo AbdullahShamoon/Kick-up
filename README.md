@@ -17,16 +17,16 @@
 - **Sound effects**: Enjoy sound effects when the ball hits the cursor or walls and when the ball falls to the ground.
 - **Highscore tracking**: Your highest score is saved locally and displayed when you restart the game.
 
+## Screenshots
+
+![Screenshot 1](screenshots/1.png)
+![Screenshot 1](screenshots/2.png)
+
 ## Technologies Used
 
 - **HTML**: For the game structure.
 - **CSS**: For styling the game layout and elements.
 - **JavaScript**: For the game logic, including ball movement, collision detection, scorekeeping, and more.
-
-## Screenshots
-
-![Screenshot 1](screenshots/1.png)
-![Screenshot 1](screenshots/2.png)
 
 ## Future Improvements
 
