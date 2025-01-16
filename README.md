@@ -1,37 +1,101 @@
 # Kick Up
 
-**Kick Up** is an interactive, fun game where you use your mouse to bounce a ball off the ground as many times as possible. Each successful bounce adds to your score, and if the ball falls to the ground, the game ends. The ball will bounce in the opposite direction depending on where the mouse cursor hits it, making the game both challenging and exciting.
+An interactive and fun web-based game where you control a bouncing ball using a custom cursor. The goal is to keep the ball in the air as long as possible by bouncing it off the cursor. Each successful bounce increases your score. Customize your gameplay with various cursors, backgrounds, and difficulty levels!
 
-## How to Play
-
-1. Use your mouse cursor to **bounce the ball** by touching it.
-2. Each bounce increases your score by **1 point**.
-3. The ball will bounce in different directions depending on where it is hit (bottom-left, bottom-right, etc.).
-4. **Don't let the ball fall on the ground**—if it does, the game is over.
-5. Press **Restart** to play again after the game ends.
+---
 
 ## Features
 
-- **Bounce mechanics**: The ball bounces off the mouse cursor, with the direction determined by the point of contact.
-- **Score tracking**: The score increases with each bounce and is displayed at the top of the screen.
-- **Sound effects**: Enjoy sound effects when the ball hits the cursor or walls and when the ball falls to the ground.
-- **Highscore tracking**: Your highest score is saved locally and displayed when you restart the game.
+### Core Gameplay:
+- **Bounce the Ball**: Keep the ball from falling to the ground by bouncing it off the cursor.
+- **Dynamic Scoring**: Gain points with each successful bounce. Compete to beat the high score!
+- **Realistic Physics**: The ball moves dynamically, responding to gravity, speed, and cursor collisions.
 
-## Screenshots
+### Customization Menu:
+- **Cursor Selection**: Choose from various cursor designs with visual previews.
+- **Ball Selection**: Choose from different ball images.
+- **Background Themes**: Personalize your gameplay environment with selectable backgrounds.
+- **Difficulty Levels**: Adjust the game's gravity and ball speed for an easy, medium, or hard experience.
 
-![Screenshot 1](screenshots/1.png)
-![Screenshot 1](screenshots/2.png)
+### Sounds and Effects:
+- **Dynamic Sound Effects**: Hear realistic sounds when the ball hits the cursor, walls, or ground, with volume adjusted based on speed.
+- **GSAP Animations**: Smooth animations for menus, cursor movement, and transitions.
 
-## Technologies Used
+### High Score:
+- Your best score is saved locally and displayed for bragging rights.
 
-- **HTML**: For the game structure.
-- **CSS**: For styling the game layout and elements.
-- **JavaScript**: For the game logic, including ball movement, collision detection, scorekeeping, and more.
+---
 
-## Future Improvements
+## How to Play
+1. Move your cursor to bounce the ball upward.
+2. Avoid letting the ball touch the ground.
+3. Each successful bounce adds to your score.
+4. Use the customization menu to enhance your experience.
+5. Aim for the highest score and challenge yourself with harder difficulty levels.
 
-- Add more levels and difficulty options.
-- Implement a leaderboard for top scores.
-- Include more sound effects (e.g., background music).
-- Enhance the visual design with animations or particle effects.
-***and Many More...***
+---
+
+## Tech Stack
+- **HTML5**: Game structure and layout.
+- **CSS3**: Custom styles and visuals.
+- **JavaScript**: Game logic and interactivity.
+- **GSAP (GreenSock Animation Platform)**: Smooth animations for menus and cursor.
+
+---
+
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AbdullahShamoon/Kick-up.git
+   ```
+2. Open the `index.html` file in your preferred browser.
+
+---
+
+## Customization Options
+### Cursors:
+- Visual representations allow players to select their preferred cursor style.
+
+### Balls:
+- Choose from different ball options from the visual preview.
+
+### Backgrounds:
+- Choose from a variety of themes to customize the gameplay environment.
+
+### Difficulty Levels:
+- Adjust gravity and ball speed for a tailored challenge.
+
+---
+
+## Future Enhancements
+- Add a leaderboard to compare scores globally.
+- Introduce more cursor and background options.
+- Add multiplayer mode for competitive gameplay.
+
+---
+
+## Acknowledgments
+Special thanks to:
+- **GSAP** for providing a robust animation platform.
+- Inspiration from classic bouncing ball games.
+- **Chat-GPT** for assisting in the development process.
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Preview
+![Game Screenshot](/screenshots/1.png)
+![Game Screenshot](/screenshots/2.png)
+
+Enjoy the game and keep the ball bouncing!
+
+---
+
+## Author
+**Abdullah Shamoon**  
+Feel free to connect and share your feedback!
+
