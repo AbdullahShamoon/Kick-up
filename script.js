@@ -263,6 +263,19 @@ cursorOptions.forEach(button => {
     });
 });
 
+// Ball selection
+const ballOptions = document.querySelectorAll('.ball-option');
+ballOptions.forEach(button => {
+    button.addEventListener('click', () => {
+        const ballImage = button.getAttribute('data-ball');
+        gsap.to('#ball', {
+            backgroundImage: `url('${ballImage}')`,
+            duration: 0.3,
+            ease: 'power1.inOut',
+        });
+    });
+});
+
 // Background selection
 const backgroundOptions = document.querySelectorAll('.background-option');
 backgroundOptions.forEach(button => {

@@ -156,7 +156,7 @@ body {
 
 #menu-container {
     position: fixed;
-    top: 90px;
+    top: 80px;
     left: 18px;
     z-index: 1000;
 }
@@ -200,4 +200,10 @@ button {
 
 button:hover {
     background-color: #ddd;
+}
+
+
+.ball-selection{
+    width: 30px;
+    height: 30px;
 }
