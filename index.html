@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="images/ball.png">
@@ -7,6 +8,7 @@
     <title>Kick up</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="score-board">
         <div id="score">Score: 0</div>
@@ -18,17 +20,65 @@
         <div id="right-wall"></div>
         <div id="ball"></div>
         <div id="grass"></div>
-        <div id="game-over" class="hidden">
+        <div id="game-over" class="hidden game-over">
             <p>Game Over!</p>
             <button id="restart-btn">Restart</button>
         </div>
+        <div id="high-score-display-board" class="hidde"></div>
+        <div class="cursor"></div>
     </div>
+
+    <div id="menu-container">
+        <button id="menu-toggle">☰ Menu</button>
+        <div id="menu-content">
+            <div>
+                <h3>Cursor Style</h3>
+                <button class="cursor-option" data-cursor="images/cursors/white.png">White</button>
+                <button class="cursor-option" data-cursor="images/cursors/green.png">Green</button>
+                <button class="cursor-option" data-cursor="images/cursors/golden.png">Golden</button>
+                <button class="cursor-option" data-cursor="images/cursors/feather.png">Feather</button>
+            </div>
+            <div>
+                <h3>Ball</h3>
+                <button class="ball-option" data-ball="/cursors/white.png">White</button>
+                <button class="ball-option" data-ball="/cursors/green.png">Green</button>
+                <button class="ball-option" data-ball="/cursors/golden.png">Golden</button>
+                <button class="ball-option" data-ball="/cursors/feather.png">Feather</button>
+            </div>
+            <div>
+                <h3>Background</h3>
+                <button class="background-option" data-bg="/images/background/beach.jpg">Beach</button>
+                <button class="background-option" data-bg="/images/background/ground.jpg">Ground</button>
+                <button class="background-option" data-bg="/images/background/hill.jpg">Hill</button>
+                <button class="background-option" data-bg="/images/background/nature.jpg">Nature</button>
+            </div>
+            <div>
+                <h3>Difficulty</h3>
+                <button class="difficulty-option" data-difficulty="veryeasy">Beginner</button>
+                <button class="difficulty-option" data-difficulty="easy">Easy</button>
+                <button class="difficulty-option" data-difficulty="medium">Medium</button>
+                <button class="difficulty-option" data-difficulty="hard">Hard</button>
+                <button class="difficulty-option" data-difficulty="extreme">Extreme</button>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Sounds -->
     <audio id="hit-sound" src="sounds/hit.mp3"></audio>
     <audio id="wall-sound" src="sounds/wall.mp3"></audio>
     <audio id="game-over-sound" src="sounds/gameover.mp3"></audio>
 
+
+
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
+
 </html>
