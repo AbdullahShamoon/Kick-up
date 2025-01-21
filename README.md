@@ -2,6 +2,8 @@
 
 An interactive and fun web-based game where you control a bouncing ball using a custom cursor. The goal is to keep the ball in the air as long as possible by bouncing it off the cursor. Each successful bounce increases your score. Customize your gameplay with various cursors, backgrounds, and difficulty levels!
 
+<Button>[ Play Game](https://abdullahshamoon.github.io/Kick-up/)</Button>
+
 ---
 
 ## Features
